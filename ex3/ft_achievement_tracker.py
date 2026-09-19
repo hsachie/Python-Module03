@@ -24,4 +24,8 @@ if __name__ == "__main__":
     print(f"Player Charlie: {Charlie}")
     print(f"Player Dylan: {Dylan}")
     print()
-    
+    all_achievements = Alice.union(Bob, Charlie, Dylan)
+    print(f"All distinct achievements: {all_achievements}")
+    print()
+    Common_achievements = Alice.intersection(Bob, Charlie, Dylan)
+    print(f"Common achievements: {Common_achievements}")
