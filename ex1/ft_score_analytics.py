@@ -14,8 +14,8 @@ if __name__ == "__main__":
             print(f"Invalid parameter: '{arg}'")
 
     if len(scores) == 0:
-        print(
-            f"No scores provided. Usage: python3 {sys.argv[0]} <score1> <score2> ...")
+        print("No scores provided.")
+        print(f"Usage: python3 {sys.argv[0]}...")
     else:
         print(f"Scores processed: {scores}")
         print(f"Total players: {len(scores)}")

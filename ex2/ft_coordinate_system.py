@@ -1,6 +1,5 @@
 import math
 
-
 def get_player_pos() -> tuple:
     while True:
         coordinate = input(
@@ -32,7 +31,7 @@ if __name__ == "__main__":
     print("Get a first set of coordinates")
     pos1 = get_player_pos()
     print(f"Got a first tuple: {pos1}")
-    print(f"It includes: x={pos1[0]}, y={pos1[1]}, z={pos1[2]}")
+    print(f"It includes: X={pos1[0]}, Y={pos1[1]}, Z={pos1[2]}")
     print(
         f"Distance to center: {math.sqrt((pos1[0])**2 + (pos1[1])**2 + (pos1[2])**2):.4f}")
     print("Get a second set of coordinates")
